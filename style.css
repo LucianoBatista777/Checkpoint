@@ -1,0 +1,44 @@
+body{
+    background-color: lightblue;
+    height: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    border: 1px solid cornsilk;
+}
+.HV :hover{
+    position: relative;
+    left: 7%;
+    transform: scale(1.5);
+}
+
+.HV2 :hover{
+    transform: scale(1.5);
+}
+
+
+label{
+    pointer-events: none;
+}
+
+button{
+    width: 80px;
+    border-radius: 2vh;
+    font-size: larger;
+    margin: 0 10px;
+}
+
+.enviar{
+    background-color: green;
+}
+
+.limpar{
+    background-color: grey;
+}
